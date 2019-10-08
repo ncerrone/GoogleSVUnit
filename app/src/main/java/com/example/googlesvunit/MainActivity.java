@@ -2,12 +2,13 @@ package com.example.googlesvunit;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     public EditText editTextUser;
     public EditText editTextPassword;
@@ -36,10 +37,17 @@ public class MainActivity extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                openRegisterActivity();
             }
         });
 
 
     }
+
+    public void openRegisterActivity(){
+        Intent intent = new Intent(this, SignUpActivity.class);
+        startActivity(intent);
+
+    }
+
 }
