@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "446289873872",
+    "firebase_url": "https://svunit-c3790.firebaseio.com",
+    "project_id": "svunit-c3790",
+    "storage_bucket": "svunit-c3790.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446289873872:android:f56c0fd9d37d0dea3a47d5",
+        "android_client_info": {
+          "package_name": "com.example.googlesvunit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446289873872-pped7mag8h9u1c7m4s320rja1mi7lbuj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.googlesvunit",
+            "certificate_hash": "119a4aaa5821138b0fddd18f69dcb7f80a2b1978"
+          }
+        },
+        {
+          "client_id": "446289873872-7s4slmpt6sgfqk3f8c73k2h9qbuhavsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsgKBPXZ1F5BwmfNglwmRl89h4Cjk9Rfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446289873872-7s4slmpt6sgfqk3f8c73k2h9qbuhavsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
