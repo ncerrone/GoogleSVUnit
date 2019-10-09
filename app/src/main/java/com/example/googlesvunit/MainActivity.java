@@ -27,12 +27,12 @@ public class MainActivity extends AppCompatActivity{
         confirmLogin = findViewById(R.id.buttonConfirmLogin);
         register = findViewById(R.id.buttonRegister);
 
-        confirmLogin.setOnClickListener(new View.OnClickListener() {
+        /*confirmLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                // do login
             }
-        });
+        });*/
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity{
         Intent intent = new Intent(this, SignUpActivity.class);
         startActivity(intent);
 
+        //Intent intent = new Intent(this, SignUpActivity.class);
+        //startActivity(intent);
     }
 
 }
